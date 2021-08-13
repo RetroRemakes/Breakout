@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+    <style> body {padding: 0; margin: 0;} </style>
+    <script src="scripts/p5.js"></script>
+    <script src="scripts/p5.dom.js"></script>
+    <script src="scripts/p5.sound.js"></script>
+    <script src="sketch.js"></script>
+    <script src="scripts/p5.collide2d.js"></script>
+    <script type="text/javascript">
+    function goBack() {
+      window.history.back();
+    }
+    window.addEventListener("keydown", function(e) {
+    // space and arrow keys
+    if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+    }
+   }, false);
+</script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <div id="sketch-holder"></div>
+     <button id="back-button" onclick="goBack()" title="Go back"><img src="images/back-arrow.png"></img></button>
+  </body>
+</html>

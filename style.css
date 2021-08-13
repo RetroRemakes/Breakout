@@ -1,0 +1,33 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-y:auto;
+ }
+
+#sketch-holder{
+	position: relative;
+	left: 35%;
+	top: 30px;
+	width: 500px;
+	height: 300px;
+}
+#back-button {
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    border: none;
+    outline: none;
+    background-color: #808080;
+    cursor: pointer;
+		height: 40px;
+		width: 40px;
+    border-radius: 10px;
+}
+
+#back-button:hover {
+    background-color: #bfbfbf;
+}
+#back-button img{
+	height: 16px;
+	width: 16px;
+}
