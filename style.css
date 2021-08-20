@@ -2,14 +2,13 @@ body{
 	margin: 0;
 	padding: 0;
 	overflow-y:auto;
+	background-color: #9F9F8F;
  }
 
 #sketch-holder{
-	position: relative;
-	left: 35%;
-	top: 30px;
-	width: 500px;
-	height: 300px;
+	display: flex;
+  justify-content: center;
+	margin-top: 1%;
 }
 #back-button {
     position: fixed;
